@@ -2,7 +2,6 @@ import { Html, Head, Main, NextScript } from "next/document";
 import React from "react";
 import Document, { DocumentContext } from "next/document";
 import { ServerStyleSheet } from "styled-components";
-import { render } from "react-dom";
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext) {
