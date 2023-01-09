@@ -10,6 +10,7 @@ const ProductList = () => {
   );
   return (
     <div>
+      <h2>상품목록</h2>
       <ul tw="list-none grid grid-cols-3">
         {data?.map((product) => (
           <ProductItem {...product} key={product.id} />
